@@ -74,7 +74,7 @@ body {
 
 @media (max-width: 600px) {
   .add-task .task-input {
-    width: 93%;
+    width: 95%;
   }
 }
 
