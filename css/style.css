@@ -73,8 +73,8 @@ body {
 }
 
 @media (max-width: 600px) {
-  .add-task .task-input {
-    width: 95%;
+  .add-task .task-button {
+    transform: scale(1.1);
   }
 }
 
