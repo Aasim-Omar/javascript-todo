@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "fontello";
+  src: url("../font/fontello.eot?59576826");
+  src: url("../font/fontello.eot?59576826#iefix") format("embedded-opentype"),
+    url("../font/fontello.woff2?59576826") format("woff2"),
+    url("../font/fontello.woff?59576826") format("woff"),
+    url("../font/fontello.ttf?59576826") format("truetype"),
+    url("../font/fontello.svg?59576826#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.icon-plus:before {
+  content: "\e800";
+} /* '' */
+.icon-ok-circled:before {
+  content: "\e801";
+} /* '' */
+.icon-plus-1:before {
+  content: "\e802";
+} /* '' */
+.icon-ok:before {
+  content: "\e803";
+} /* '' */
+.icon-trash:before {
+  content: "\e804";
+} /* '' */
+.icon-trash-1:before {
+  content: "\e805";
+} /* '' */
+.icon-trash-3:before {
+  content: "\e806";
+} /* '' */
+.icon-trash-2:before {
+  content: "\f1f8";
+} /* '' */
