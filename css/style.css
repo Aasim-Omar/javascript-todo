@@ -74,7 +74,7 @@ body {
 
 @media (max-width: 600px) {
   .add-task .task-button {
-    transform: scale(1.1);
+    transform: scale(1.2);
   }
 }
 
