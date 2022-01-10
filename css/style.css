@@ -72,6 +72,12 @@ body {
   padding: 10px 40px 10px 10px;
 }
 
+@media (max-width: 600px) {
+  .add-task .task-input {
+    width: 95%;
+  }
+}
+
 .add-task .task-input:focus {
   outline: none;
 }
