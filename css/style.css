@@ -76,6 +76,9 @@ body {
   .add-task .task-button {
     transform: scale(1.2);
   }
+  .add-task .task-button:hover {
+    transform: scale(1.2) rotate(180deg) !important;
+  }
 }
 
 .add-task .task-input:focus {
