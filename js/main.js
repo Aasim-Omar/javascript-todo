@@ -4,8 +4,12 @@ let taskInput = document.querySelector(".task-input");
 let taskButton = document.querySelector(".task-button");
 let tasksContainer = document.querySelector(".tasks-content");
 let completedTasks = document.querySelector(".completed-tasks");
-// let noTasks = document.querySelector(".no-tasks");
 let arrayOfTasks = [];
+
+// Set Task Button Height
+taskButton.style.width = `${taskInput.clientHeight}px`
+taskButton.style.height = `${taskInput.clientHeight}px`
+
 // Get Data From Local Storage
 if (window.localStorage.getItem("tasks")) {
   arrayOfTasks = JSON.parse(localStorage.getItem("tasks"));

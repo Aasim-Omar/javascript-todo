@@ -64,6 +64,7 @@ body {
 .add-task .task-input {
   color: #f6f6f6;
   background-color: #19A2AE;
+  font-family: "Montserrat", "Noto Sans Arabic";
   font-size: 20px;
   width: 97%;
   border: none;
@@ -94,13 +95,14 @@ body {
   border: none;
   cursor: pointer;
   transition: all 0.4s ease-in-out;
+  display: grid;
+  place-items: center;
 }
 
 .add-task .task-button i {
-  display: block;
-  width: 40px;
-  height: 40px;
-  font-size: 22px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
   display: grid;
   place-items: center;
 }
